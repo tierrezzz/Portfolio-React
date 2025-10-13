@@ -4,6 +4,9 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
       <div className="relative overflow-hidden">
+        <h3><span className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
+            
+          </span></h3>
         <img 
           src={project.image} 
           alt={project.title}
@@ -11,9 +14,10 @@ const ProjectCard = ({ project }) => {
         />
         {project.featured && (
           <span className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
-            Destacado
+            {project.estado}
           </span>
         )}
+        
       </div>
       
       <div className="p-6">

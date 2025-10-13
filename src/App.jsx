@@ -1,3 +1,4 @@
+// Importamos y llamamos a cada componente.
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -21,4 +22,5 @@ function App() {
   );
 }
 
+// exportamos App
 export default App;
