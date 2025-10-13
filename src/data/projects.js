@@ -1,10 +1,12 @@
+import paggHamilton from "../assets/pagg-hamilton.jpg"
+
 export const projects = [
   {
     id: 1,
     title: "Proyecto de reservas para confiteria",
     description: "Aplicacion web para reservas y carta virtual, haciendo uso de API Rest.",
     estado: "En - Proceso",
-    image: "/src/assets/pagg-hamilton.jpg",
+    image: paggHamilton,
     technologies: ["React", "Node.js", "Mysql"],
     githubUrl: "https://github.com/tierrezzz/Hamilton-Bar-Proyecto",
     liveUrl: "https://tierrezzz.github.io/Pagina-Hamilton",
