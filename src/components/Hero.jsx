@@ -19,7 +19,7 @@ const Hero = () => {
                 href="#projects" 
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-lg"
               >
-                Ver Proyectos
+                Proyectos
               </a>
               <a 
                 href="#contact" 
@@ -33,7 +33,7 @@ const Hero = () => {
                 rel="noopener noreferrer" 
                 className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition"
               >
-                Ver CV
+                CV
               </a>
             </div>
           </div>
