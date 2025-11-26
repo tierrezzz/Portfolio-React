@@ -1,6 +1,6 @@
 import React from 'react';
-// Importa tu imagen
 import miFoto from '../assets/fg-gpt.png';
+import cvFile from '../assets/FacundoGutierrez.cv.pdf';
 
 const Hero = () => {
   return (
@@ -26,6 +26,14 @@ const Hero = () => {
                 className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition"
               >
                 Contactar
+              </a>
+              <a 
+                href={cvFile}
+                target="_blank"           
+                rel="noopener noreferrer" 
+                className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition"
+              >
+                Ver CV
               </a>
             </div>
           </div>

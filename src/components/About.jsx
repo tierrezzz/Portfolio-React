@@ -22,7 +22,6 @@ const About = () => {
           Herramientas de gestión de proyectos y tareas.
         </p>
 
-        {/* Contenedor centrado */}
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-md">
             <div className="flex items-center gap-3 justify-center md:justify-start">

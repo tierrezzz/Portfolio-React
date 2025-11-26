@@ -7,7 +7,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Datos que se envían a la plantilla de EmailJS
+    
     const templateParams = {
       from_name: form.current.from_name.value,
       from_email: form.current.from_email.value,
@@ -16,15 +16,15 @@ const Contact = () => {
     };
 
     emailjs.send(
-      'service_qwbqrcq', // Tu Service ID de Gmail
-      'template_trbdx8f', // Template ID que creaste
+      'service_qwbqrcq', 
+      'template_trbdx8f', 
       templateParams,
-      'buOjySvtVHfmyGwTT' // Tu Public Key
+      'buOjySvtVHfmyGwTT'
     )
     .then((result) => {
       console.log('✅ Email enviado:', result.text);
       alert('Mensaje enviado correctamente');
-      form.current.reset(); // Limpiar formulario
+      form.current.reset();
     })
     .catch((error) => {
       console.error('❌ Error:', error);
