@@ -1,5 +1,5 @@
 import React from "react";
-import miFoto from "../assets/Facundo-paisaje.jpg";
+import miFoto from "../assets/Facundo-paisaje.webp";
 import cvFile from "../assets/FacundoGutierrez.cv.pdf";
 
 const Hero = () => {
