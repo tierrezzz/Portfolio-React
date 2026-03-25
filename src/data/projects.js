@@ -1,15 +1,14 @@
-import paggHamilton from "../assets/pagg-hamilton.jpg"
+import paggNalu from "../assets/Nalu.png"
 
 export const projects = [
   {
     id: 1,
-    title: "Proyecto de reservas para confiteria",
-    description: "Aplicacion web para reservas y carta virtual, haciendo uso de API Rest.",
+    title: "Sistema de ventas y gestión web para Marroquinería",
+    description: "Aplicacion web para ventas online y Gestion de productos, haciendo uso de API Rest.",
     estado: "En - Proceso",
-    image: paggHamilton,
-    technologies: ["React", "Node.js", "Mysql"],
-    githubUrl: "https://github.com/tierrezzz/Hamilton-Bar-Proyecto",
-    liveUrl: "https://tierrezzz.github.io/Pagina-Hamilton",
+    image: paggNalu,
+    technologies: ["React-Tailwind", "Node.js", "Mysql"],
+    githubUrl: "https://github.com/tierrezzz/Nalu-Marroquineria",
     featured: true
   },
 
